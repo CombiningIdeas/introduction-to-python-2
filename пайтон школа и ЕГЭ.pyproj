@@ -1,0 +1,161 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bbb4545a-b57f-4a21-acdd-ef25ab7a5566</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Черновик.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>пайтон школа и ЕГЭ</Name>
+    <RootNamespace>пайтон школа и ЕГЭ</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="02_02.py" />
+    <Compile Include="42 практическая PyCharm.py" />
+    <Compile Include="54 параграфф.py" />
+    <Compile Include="55 параграфф.py" />
+    <Compile Include="bintree.py" />
+    <Compile Include="Proverka_postfix.py" />
+    <Compile Include="Быстрая сортировка и бинарный поиск.py" />
+    <Compile Include="Задание №27 ЕГЭ.py" />
+    <Compile Include="Задание №12 ЕГЭ.py" />
+    <Compile Include="Задание №14 ЕГЭ.py" />
+    <Compile Include="Задание №15 ЕГЭ.py" />
+    <Compile Include="Задание №16 ЕГЭ.py" />
+    <Compile Include="Задание №17 ЕГЭ.py" />
+    <Compile Include="Задание №2 ЕГЭ.py" />
+    <Compile Include="Задание №23 ЕГЭ.py" />
+    <Compile Include="Задание №24 ЕГЭ.py" />
+    <Compile Include="Задание №25 ЕГЭ.py" />
+    <Compile Include="Задание №26 ЕГЭ.py" />
+    <Compile Include="Задание №5 ЕГЭ.py" />
+    <Compile Include="Задание №6 ЕГЭ.py" />
+    <Compile Include="Задание №8 ЕГЭ.py" />
+    <Compile Include="Задание №9 ЕГЭ.py" />
+    <Compile Include="Задания по ЕГЕ номер 17.py" />
+    <Compile Include="Итоговая контрольная.py" />
+    <Compile Include="классная работа 11.04.2023.py" />
+    <Compile Include="классная работа 12.04.2023.py" />
+    <Compile Include="классная работа 17.04.2023.py" />
+    <Compile Include="контрольная работа по введению в пайтон.py" />
+    <Compile Include="Контрольная работа №4 Массивы Задание 1.py" />
+    <Compile Include="Контрольная работа №4 Массивы Задание 2.py" />
+    <Compile Include="Контрольная работа №4 Массивы Задание 3.py" />
+    <Compile Include="Методы Монте-Карло.py" />
+    <Compile Include="модуль1.py" />
+    <Compile Include="пайтон_школа_и_ЕГЭ.py" />
+    <Compile Include="Практическая 14 А 11кл.py" />
+    <Compile Include="Практическая 14 В 11кл.py" />
+    <Compile Include="Практическая 14 С 11кл.py" />
+    <Compile Include="практическая 40.py" />
+    <Compile Include="практическая 41.py" />
+    <Compile Include="практическая 42.py" />
+    <Compile Include="практическая 43.py" />
+    <Compile Include="практическая 43_11 класс.py" />
+    <Compile Include="практическая 44.py" />
+    <Compile Include="практическая 44a.py" />
+    <Compile Include="практическая 44_11 класс.py" />
+    <Compile Include="практическая 45.py" />
+    <Compile Include="практическая 45a.py" />
+    <Compile Include="практическая 45_11 класс.py" />
+    <Compile Include="практическая 46.py" />
+    <Compile Include="практическая 47.py" />
+    <Compile Include="практическая 47_11 класс.py" />
+    <Compile Include="практическая 48.py" />
+    <Compile Include="практическая 49.py" />
+    <Compile Include="практическая 49А 11 класс.py" />
+    <Compile Include="практическая 50 Уровень B.py" />
+    <Compile Include="практическая 50 Уровень А.py" />
+    <Compile Include="практическая 51 Уровень B.py" />
+    <Compile Include="практическая 51 Уровень C.py" />
+    <Compile Include="практическая 51 Уровень D.py" />
+    <Compile Include="практическая 51 Уровень А.py" />
+    <Compile Include="практическая 52 Уровень B.py" />
+    <Compile Include="практическая 52 Уровень C.py" />
+    <Compile Include="практическая 52 Уровень А.py" />
+    <Compile Include="практическая 53 Уровень B.py" />
+    <Compile Include="практическая 53 Уровень C.py" />
+    <Compile Include="практическая 53 Уровень А.py" />
+    <Compile Include="практическая 54 Уровень B.py" />
+    <Compile Include="практическая 54 Уровень C.py" />
+    <Compile Include="практическая 54 Уровень А.py" />
+    <Compile Include="практическая 55 Уровень B.py" />
+    <Compile Include="практическая 55 Уровень C.py" />
+    <Compile Include="практическая 55 Уровень А.py" />
+    <Compile Include="практическая 56 Уровень B.py" />
+    <Compile Include="практическая 56 Уровень C.py" />
+    <Compile Include="практическая 56 Уровень А.py" />
+    <Compile Include="практическая 57 Уровень B.py" />
+    <Compile Include="практическая 57 Уровень C.py" />
+    <Compile Include="практическая 57 Уровень А.py" />
+    <Compile Include="практическая 58 Уровень B второй способ.py" />
+    <Compile Include="практическая 58 Уровень B.py" />
+    <Compile Include="практическая 58 Уровень А.py" />
+    <Compile Include="практическая 60 Уровень B.py" />
+    <Compile Include="практическая 60 Уровень А.py" />
+    <Compile Include="практическая 61 Уровень B.py" />
+    <Compile Include="практическая 61 Уровень C.py" />
+    <Compile Include="практическая 61 Уровень А.py" />
+    <Compile Include="практическая 62 Уровень B.py" />
+    <Compile Include="практическая 62 Уровень C.py" />
+    <Compile Include="практическая 62 Уровень А.py" />
+    <Compile Include="практическая 63 Уровень B.py" />
+    <Compile Include="практическая 63 Уровень C.py" />
+    <Compile Include="практическая 63 Уровень А.py" />
+    <Compile Include="практическая 64 Уровень B.py" />
+    <Compile Include="практическая 64 Уровень А.py" />
+    <Compile Include="практическая 66 Уровень B.py" />
+    <Compile Include="практическая 66 Уровень C.py" />
+    <Compile Include="практическая 66 Уровень А.py" />
+    <Compile Include="практическая 67 Уровень B.py" />
+    <Compile Include="практическая 67 Уровень А.py" />
+    <Compile Include="Практическая 68 B.py" />
+    <Compile Include="Практическая 68 C.py" />
+    <Compile Include="Практическая 68 А.py" />
+    <Compile Include="Практическая 69 B.py" />
+    <Compile Include="Практическая 69 C.py" />
+    <Compile Include="Практическая 69 А.py" />
+    <Compile Include="Практическая 70 B.py" />
+    <Compile Include="Практическая 70 C.py" />
+    <Compile Include="Практическая 70 А.py" />
+    <Compile Include="Практическая 71 B.py" />
+    <Compile Include="Практическая 71 C.py" />
+    <Compile Include="Практическая 71 А.py" />
+    <Compile Include="Практическая 72 C.py" />
+    <Compile Include="Практическая 75 A 1 задание.py" />
+    <Compile Include="Практическая 75 A 2 задание.py" />
+    <Compile Include="Практическая 75 B 3 задание.py" />
+    <Compile Include="Практическая 75 B 4 задание.py" />
+    <Compile Include="Практическая 76 A 2 задание.py" />
+    <Compile Include="пример работы с матрицами.py" />
+    <Compile Include="Редактор ЕГЕ.py" />
+    <Compile Include="Самостоятельная работа массивы задание №1.py" />
+    <Compile Include="Самостоятельная работа массивы задание №2.py" />
+    <Compile Include="Тест полякова по пайтону 43.py" />
+    <Compile Include="Файл с алгоритмами для ЕГЭ 2024.py" />
+    <Compile Include="Файл_для_работы_с_Python.py" />
+    <Compile Include="Функция определения простого числа.py" />
+    <Compile Include="Цифровое гто.py" />
+    <Compile Include="Черновик.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
